@@ -1,0 +1,5 @@
+C:\Users\gautam.kadian\Documents\Visual Studio 2012\Projects\AngularSample\AngularWeb\bin\AngularWeb.dll
+C:\Users\gautam.kadian\Documents\Visual Studio 2012\Projects\AngularSample\AngularWeb\bin\AngularWeb.pdb
+C:\Users\gautam.kadian\Documents\Visual Studio 2012\Projects\AngularSample\AngularWeb\obj\Debug\AngularWeb.dll
+C:\Users\gautam.kadian\Documents\Visual Studio 2012\Projects\AngularSample\AngularWeb\obj\Debug\AngularWeb.pdb
+C:\Users\gautam.kadian\Documents\Visual Studio 2012\Projects\AngularSample\AngularWeb\obj\Debug\AngularWeb.csprojResolveAssemblyReference.cache

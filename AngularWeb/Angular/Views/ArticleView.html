@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <div class="Article_outer Article_left col-md-8 col-sm-8 col-xs-8">
+        <img class="bigImage col-md-12" src="{{selectedArticle.ImageUrl}}" />
+
+        <div class="Article_List_content col-md-12 col-sm-12 col-xs-12">Id: {{selectedArticle.Id}}</div>
+        <div class="Article_List_content col-md-12 col-sm-12 col-xs-12">Title: {{selectedArticle.Title}}</div>
+        <div class="Article_List_content col-md-12 col-sm-12 col-xs-12">Body: Lorem Ipsum</div>
+        <div class="Article_List_content col-md-12 col-sm-12 col-xs-12">Date Published: Lorem Ipsum</div>
+        <div class="Article_List_content col-md-12 col-sm-12 col-xs-12 Article_border">Category: {{selectedArticle.CategoryName}}</div>
+
+    </div>
+
+    <div class="List_articles_outer list_left_border col-md-4 col-sm-4 col-xs-4">
+        <div class="list_text col-md-12 col-sm-12 col-xs-12 ">
+            <div class="list_background" data-ng-repeat="article in articles | orderBy:'Id':true">
+                {{article.Title}} 
+            </div>
+        </div>
+        <div class="list_text col-md-12 col-sm-12 col-xs-12 ">
+            <div class="list_background" data-ng-repeat="article in selectedCateogoryArticle | orderBy:'Id':true">
+                {{article.Title}} 
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

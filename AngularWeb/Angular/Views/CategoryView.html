@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <div class="Article_outer col-md-8 col-sm-8 col-xs-8">
+
+        <div data-ng-repeat="article in categoryArticles">
+            <div class="Article_name col-md-12 col-sm-12 col-xs-12" data-ng-click="changeView('Article/' +article.Id)">
+                <img class="img_style" src="{{article.ImageUrl}}" />
+                <div class="Article_title">
+                    <span>{{article.Title}}</span>
+                    </br><span class="maruti">{{article.CategoryName}}</span>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="List_articles_outer col-md-4 col-sm-4 col-xs-4">
+        <div class="list_text col-md-12 col-sm-12 col-xs-12 ">
+            <div class="list_background" data-ng-repeat="article in articles | orderBy:'Id':true">
+                {{article.Title}} 
+            </div>
+        </div>
+        <div class="list_text col-md-12 col-sm-12 col-xs-12 Article_border">
+            <ul class="list_Category" ng-repeat="(key, value) in articles | groupBy: 'CategoryName'">
+                <div ng-click="showDetail(key)">
+                    {{ key }} <a href="" ng-hide="active == key"> <i class="fa fa-plus"></i></a><a href="" ng-show="active == key"> <i class="fa fa-minus"></i></a>
+                    <div ng-show="active == key">
+                        <li ng-repeat="player in value">Article: {{ player.Title }} 
+                        </li>
+                    </div>
+                </div>
+            </ul>
+
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+D:\RestAngulerJS\RestAngulerJS\RestAngulerJS\bin\RestAngulerJS.dll
+D:\RestAngulerJS\RestAngulerJS\RestAngulerJS\bin\RestAngulerJS.pdb
+D:\RestAngulerJS\RestAngulerJS\RestAngulerJS\obj\Debug\RestAngulerJS.dll
+D:\RestAngulerJS\RestAngulerJS\RestAngulerJS\obj\Debug\RestAngulerJS.pdb

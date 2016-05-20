@@ -1,0 +1,9 @@
+D:\RestAngulerJS\RestAngulerJS\RestAngulerJS\bin\RestAngulerJS.dll
+D:\RestAngulerJS\RestAngulerJS\RestAngulerJS\bin\RestAngulerJS.pdb
+D:\RestAngulerJS\RestAngulerJS\RestAngulerJS\obj\Debug\RestAngulerJS.dll
+D:\RestAngulerJS\RestAngulerJS\RestAngulerJS\obj\Debug\RestAngulerJS.pdb
+C:\Users\gautam.kadian\Documents\Visual Studio 2012\Projects\AngularSample\RestAngulerJS\bin\RestAngulerJS.dll
+C:\Users\gautam.kadian\Documents\Visual Studio 2012\Projects\AngularSample\RestAngulerJS\bin\RestAngulerJS.pdb
+C:\Users\gautam.kadian\Documents\Visual Studio 2012\Projects\AngularSample\RestAngulerJS\obj\Debug\RestAngulerJS.dll
+C:\Users\gautam.kadian\Documents\Visual Studio 2012\Projects\AngularSample\RestAngulerJS\obj\Debug\RestAngulerJS.pdb
+C:\Users\gautam.kadian\Documents\Visual Studio 2012\Projects\AngularSample\RestAngulerJS\obj\Debug\RestAngularJS.csprojResolveAssemblyReference.cache
